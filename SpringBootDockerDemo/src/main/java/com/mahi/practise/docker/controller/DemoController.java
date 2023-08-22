@@ -23,7 +23,7 @@ public class DemoController {
 
 	@GetMapping("testAPI")
 	public String getString() {
-		return "Am from docker demo";
+		return "Am from docker demo****************from git";
 	}
 
 	@PostMapping(path = "/add")
